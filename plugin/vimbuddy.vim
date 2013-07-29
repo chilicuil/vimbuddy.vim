@@ -46,31 +46,31 @@ function! VimBuddy()
     "@_@
 
     if ! exists("g:vimbuddy_focuslessFace")
-        let g:vimbuddy_focuslessFace = "-_-"
+        let g:vimbuddy_focuslessFace = "-@-"
     endif
 
     if ! exists("g:vimbuddy_errFace")
-        let g:vimbuddy_errFace = "X_X"
+        let g:vimbuddy_errFace = "x@X"
     endif
 
     if ! exists("g:vimbuddy_warnFace")
-        let g:vimbuddy_warnFace = "=.='"
+        let g:vimbuddy_warnFace = "O@O'"
     endif
 
     if !exists("g:vimbuddy_wtfFace1")
-        let g:vimbuddy_wtfFace1 = "O_o!"
+        let g:vimbuddy_wtfFace1 = "¬@¬"
     endif
 
     if !exists("g:vimbuddy_wtfFace2")
-        let g:vimbuddy_wtfFace2 = "O_O'"
+        let g:vimbuddy_wtfFace2 = "O@o"
     endif
-        
+
     if !exists("g:vimbuddy_wtfFace[3]")
-        let g:vimbuddy_wtfFace3 = "^_^'"
+        let g:vimbuddy_wtfFace3 = "o@O"
     endif
 
     if !exists("g:vimbuddy_happyFace")
-        let g:vimbuddy_happyFace = "^_^"
+        let g:vimbuddy_happyFace = "o@o"
     endif
 
     if g:actual_curbuf != bufnr("%")
@@ -112,7 +112,7 @@ function! VimBuddy()
     endif
 
     "Too excessive
-    
+
     "if ! exists("b:lastcol")
         "let b:lastcol = col(".")
     "endif
